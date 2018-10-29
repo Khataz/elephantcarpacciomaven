@@ -32,7 +32,8 @@ public class TestCarpaccio {
         c.addProduct(p1, 2);
         c.addProduct(p2, 3);
 
-        assertEquals(31, c.getTotalHTPrice(), 0);
+       //assertEquals(31, c.getTotalHTPrice(), 0);
+        assertEquals(1000, c.getTotalHTPrice(), 0); //TEST BROKEN
     }
 
     @Test
